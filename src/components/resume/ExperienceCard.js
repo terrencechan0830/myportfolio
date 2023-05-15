@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ResumeCard = ({title,subTitle,result,des}) => {
+const ExperienceCard = ({title,subTitle,result,des}) => {
   return (
     <div className='w-full h-1/2 group flex'>
         <div className='w-10 h-[6px] bgOpacity mt-16 relative'>
@@ -15,7 +15,7 @@ const ResumeCard = ({title,subTitle,result,des}) => {
                     <p className='text-sm mt-2 text-gray-400 group-hover:text-white duration-300'>{subTitle}</p>
                 </div>
                 <div>
-                    <p className='w-20 h-10 bg-black bg-opacity-25 rounded-lg flex items-center justify-center shadow-shadowOne text-designColor text-sm font-medium'>{result}</p>
+                    <p className='w-40 h-10 bg-black bg-opacity-25 rounded-lg flex items-center justify-center shadow-shadowOne text-designColor text-sm font-medium'>{result}</p>
                 </div>
             </div>
             <p>{des}</p>
@@ -24,4 +24,4 @@ const ResumeCard = ({title,subTitle,result,des}) => {
   )
 }
 
-export default ResumeCard
+export default ExperienceCard

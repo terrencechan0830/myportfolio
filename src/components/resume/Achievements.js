@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion'
-import ResumeCard from "./ResumeCard";
+import AchievementCard from "./AchievementCard";
 
 const Experience = () => {
   return (
@@ -10,13 +10,13 @@ const Experience = () => {
             <h2 className="text-3xl md:text-4xl font-bold">Achievements</h2>
         </div>
         <div className='mt-14 w-full h-[900px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
-            <ResumeCard
+            <AchievementCard
                 title="Bachelor of Science"
                 subTitle="The University of Hong Kong (2015 - 2020)"
                 result="3.14/4.3"
                 des="Relevant coursework: Machine Learning, Time Series Analysis, Statistical Computing, Econometrics"
             />
-            <ResumeCard
+            <AchievementCard
                 title="High School Education"
                 subTitle="King Ling College (2009 - 2015)"
                 result="27/35"
