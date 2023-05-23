@@ -14,7 +14,7 @@ const LeftBanner = () => {
   return (
     <div className="w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
-        <h4 className="text-lg font-normal">WELCOME TO MY WEBSITE</h4>
+        <h4 className="text-lg font-normal">WELCOME TO MY PORTFOLIO WEBSITE :D</h4>
         <h1 className="text-6xl font-bold text-white">
             Hi, I'm {" "}
             <span className="text-designColor capitalize">
@@ -29,10 +29,8 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
             />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-            I use animation as a third dimension by which to simplify experiences
-            and kuiding thro each and every interaction. I'm not adding motion
-            just to spruce things up, but doing it in ways that.
+        <p className="text-xs font-bodyFont leading-6 tracking-wide">
+            With expertise in both batch and real-time processing, I specialize in creating robust data infrastructures that enable organizations to gain valuable insights from their data. My technical skills include proficiency in Python, SQL, and Azure cloud technologies such as Azure Data Factory, Azure Databricks, and Azure Synapse Analytics.
         </p>
         </div>
         <div className="flex justify-between">
@@ -41,15 +39,21 @@ const LeftBanner = () => {
             Find me in
             </h2>
             <div className="flex gap-4">
-            <span className="bannerIcon">
-                <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-                <FaInstagramSquare />
-            </span>
-            <span className="bannerIcon">
-                <FaLinkedinIn />
-            </span>
+                <a href='https://www.facebook.com/chan.terrence.7/' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaFacebookF />
+                    </span>
+                </a>
+                <a href='https://www.instagram.com/terrence_ctf/' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaInstagramSquare />
+                    </span>
+                </a>
+                <a href='https://www.linkedin.com/in/terrence-chan-86228a159' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaLinkedinIn />
+                    </span>
+                </a>
             </div>
         </div>
         <div>
@@ -57,18 +61,18 @@ const LeftBanner = () => {
             BEST SKILL ON
             </h2>
             <div className="flex gap-4">
-            <span className="bannerIcon">
-                <FaPython />
-            </span>
-            <span className="bannerIcon">
-                <SiJavascript />
-            </span>
-            <span className="bannerIcon">
-                <SiMicrosoftsqlserver />
-            </span>
-            <span className="bannerIcon">
-                <SiTableau />
-            </span>
+                <span className="bannerIcon" title='Python'>
+                    <FaPython />
+                </span>
+                <span className="bannerIcon">
+                    <SiJavascript />
+                </span>
+                <span className="bannerIcon">
+                    <SiMicrosoftsqlserver />
+                </span>
+                <span className="bannerIcon">
+                    <SiTableau />
+                </span>
             </div>
         </div>
         </div>
