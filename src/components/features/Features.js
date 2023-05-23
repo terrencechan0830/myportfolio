@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import Card from './Card'
-import {FaBars, FaCodeBranch, FaTerminal, FaChartBar} from "react-icons/fa"
+import {FaCodeBranch, FaTerminal, FaChartBar} from "react-icons/fa"
 
 const Features = () => {
   return (
