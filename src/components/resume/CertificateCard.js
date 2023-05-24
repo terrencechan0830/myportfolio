@@ -1,5 +1,4 @@
 import React from 'react'
-// import { FiExternalLink } from "react-icons/fi";
 
 const CertificateCard = ({title,logo,issuer,issuedt,url}) => {
   return (

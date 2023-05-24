@@ -12,8 +12,8 @@ const Resume = () => {
     const [experienceData, setExperienceData] = useState(false);
     const [achievementData, setachievementData] = useState(false);
   return (
-    <section id='resume' className="w-full h-[1500px] py-20 border-b-[1px] border-b-black">
-        <div className="flex justify-center items-center text-center">
+    <section id='resume' className="w-full h-[1500px] py-20 border-b-[1px] border-b-gray-600">
+        <div className="flex flex-col justify-center items-center text-center">
             <Title title="FULL-STACK DEVELOPER" des="My Resume" />
         </div>
         <div>

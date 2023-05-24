@@ -45,7 +45,7 @@ const RightContact = () => {
     }
 
   return (
-    <div className='w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-8 rounded-lg shadow-ShadowOne'>
+    <div className='w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col gap-8 p-8 rounded-lg'>
         <form className='w-full flex flex-col gap-6 py-4'>
         {
             errMsg && <p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-red-500 text-base tracking-wide animate-bounce'>{errMsg}</p>

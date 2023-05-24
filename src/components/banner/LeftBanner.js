@@ -1,20 +1,20 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaInstagramSquare, FaLinkedinIn, FaPython } from "react-icons/fa";
+import { FaFacebookF, FaInstagramSquare, FaLinkedinIn, FaGithub, FaPython } from "react-icons/fa";
 import { SiJavascript, SiMicrosoftsqlserver, SiTableau } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
         words: ["Data Engineer.", "Data Analyst.", "Programmer.", "Developer."],
         loop: true,
-        typeSpeed: 20,
-        deleteSpeed: 10,
+        typeSpeed: 30,
+        deleteSpeed: 20,
         delaySpeed: 2000
       });
   return (
     <div className="w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
-        <h4 className="text-lg font-normal">WELCOME TO MY PORTFOLIO WEBSITE :D</h4>
+        <h4 className="text-lg font-normal">WELCOME TO MY PORTFOLIO WEBSITE</h4>
         <h1 className="text-6xl font-bold text-white">
             Hi, I'm {" "}
             <span className="text-designColor capitalize">
@@ -52,6 +52,11 @@ const LeftBanner = () => {
                 <a href='https://www.linkedin.com/in/terrence-chan-86228a159' target="_blank" rel="noopener noreferrer">
                     <span className="bannerIcon">
                         <FaLinkedinIn />
+                    </span>
+                </a>
+                <a href='https://github.com/terrencechan0830' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaGithub />
                     </span>
                 </a>
             </div>
