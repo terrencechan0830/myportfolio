@@ -19,7 +19,7 @@ const ExperienceCard = ({title,subTitle,result,des}) => {
         <div className='w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 rounded-lg px-10 flex flex-col justify-center gap-10 shadow-shadowOne'>
             <div className='flex justify-between'>
                 <div>
-                    <h3 className='text-2xl font-semibold group-hover:text-white duration-300'>{title}</h3>
+                    <h3 className='text-2xl text-designColor font-semibold'>{title}</h3>
                     <p className='text-sm mt-2 text-gray-400 group-hover:text-white duration-300'>{subTitle}</p>
                 </div>
                 <div>
@@ -27,7 +27,7 @@ const ExperienceCard = ({title,subTitle,result,des}) => {
                 </div>
             </div>
             <div>
-              {Array.isArray(des) ? <ul class='list-disc text-sm'>{listItems}</ul> : <p>{des}</p>}
+              {Array.isArray(des) ? <ul class='list-disc text-sm text-gray-400 group-hover:text-white duration-300'>{listItems}</ul> : <p>{des}</p>}
             </div>
         </div>
     </div>

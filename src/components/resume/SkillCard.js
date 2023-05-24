@@ -6,7 +6,7 @@ const SkillCard = ({skill, percentage, width}) => {
     <div>
         <div className='overflow-x-hidden'>
             <p className='text-base Captalize font-medium'>{skill}</p>
-            <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
+            <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-3'>
                 <motion.span
                 initial={{ x: "-100%", opacity: 0}}
                 animate={{ x: 0, opacity: 1}}

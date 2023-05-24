@@ -14,11 +14,11 @@ const LeftBanner = () => {
   return (
     <div className="w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
-        <h4 className="text-lg font-normal">WELCOME TO MY PORTFOLIO WEBSITE</h4>
-        <h1 className="text-6xl font-bold text-white">
-            Hi, I'm {" "}
+        <h4 className="text-lg font-normal">Welcome to my website!</h4>
+        <h1 className="text-5xl font-bold text-white">
+            Hi, I'm{" "}
             <span className="text-designColor capitalize">
-            Terrence Chan
+                Terrence chan
             </span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
@@ -26,7 +26,7 @@ const LeftBanner = () => {
             <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="#ff014f"
+            cursorColor="#06b5d4"
             />
         </h2>
         <p className="text-xs font-bodyFont leading-6 tracking-wide">

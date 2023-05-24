@@ -13,9 +13,9 @@ const CertificateCard = ({title,logo,issuer,issuedt,url}) => {
                 <div className='flex gap-20 items-center justify-center'>
                     <img src={logo} alt={logo} className="h-32 w-32 mb-4" />
                     <div className='flex flex-col gap-1'>
-                        <h3 className='text-2xl font-semibold group-hover:text-white duration-300'>{title}</h3>
-                        <p className='text-sm'>{issuer}</p>
-                        <p className='text-sm text-gray-400'>Issued {issuedt}</p>
+                        <h3 className='text-2xl font-semibold text-designColor'>{title}</h3>
+                        <p className='text-sm group-hover:text-white duration-300'>{issuer}</p>
+                        <p className='text-sm text-gray-400 group-hover:text-white duration-300'>Issued {issuedt}</p>
                     </div>    
                 </div>
                 <div>

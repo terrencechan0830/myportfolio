@@ -11,14 +11,14 @@ const EducationCard = ({title,subTitle,result,des}) => {
         <div className='w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 rounded-lg px-10 flex  flex-col justify-center gap-10 shadow-shadowOne'>
             <div className='flex justify-between'>
                 <div>
-                    <h3 className='text-2xl font-semibold group-hover:text-white duration-300'>{title}</h3>
+                    <h3 className='text-2xl font-semibold text-designColor'>{title}</h3>
                     <p className='text-sm mt-2 text-gray-400 group-hover:text-white duration-300'>{subTitle}</p>
                 </div>
                 <div>
                     <p className='w-20 h-10 bg-black bg-opacity-25 rounded-lg flex items-center justify-center shadow-shadowOne text-designColor text-sm font-medium'>{result}</p>
                 </div>
             </div>
-            <p>{des}</p>
+            <p className='text-gray-400 group-hover:text-white duration-300'>{des}</p>
         </div>
     </div>
   )

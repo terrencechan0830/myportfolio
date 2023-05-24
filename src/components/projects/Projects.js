@@ -11,19 +11,23 @@ const Projects = () => {
         </div>
         <div className='grid grid-cols-3 gap-14'>
             <ProjectCard
-            title="SOCIAL MEDIA CLONE"
+            title="Online Ordering Platform"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectOne}
+            gitUrl="https://github.com/terrencechan0830/agentOrderForm"
+            webUrl=""
             />
             <ProjectCard
-            title="E-commerce Website"
+            title="Responsive Portfolio"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectTwo}
+            gitUrl="https://github.com/terrencechan0830/myportfolio"
+            webUrl=""
             />
             <ProjectCard
-            title="Chatting App"
+            title="Working in Progress..."
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectThree}
