@@ -5,7 +5,7 @@ import { SiJavascript, SiMicrosoftsqlserver, SiTableau } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Data Engineer.", "Data Analyst.", "Programmer.", "Developer."],
+        words: ["Data Engineer.", "Data Analyst.", "Programmer.", "Solution Developer."],
         loop: true,
         typeSpeed: 30,
         deleteSpeed: 20,
@@ -16,7 +16,7 @@ const LeftBanner = () => {
         <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal">Welcome to my website!</h4>
         <h1 className="text-5xl font-bold text-white">
-            Hi, I'm{" "}
+            Hi, I'm{"  "}
             <span className="text-designColor capitalize">
                 Terrence chan
             </span>
