@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'terrence-chan-workspace'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E4F03D9813AB4B2F8071F3712DFA987D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0A6397995EED4C729C212D2F05CFF4DB }}
           package: .
