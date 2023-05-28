@@ -4,7 +4,7 @@ import EducationCard from './EducationCard'
  
 const Education = () => {
   return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}}> 
+    <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className='lgl:flex-row'> 
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
             <h2 className="text-3xl md:text-4xl font-bold">Education Background</h2>
         </div>

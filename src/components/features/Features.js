@@ -5,7 +5,7 @@ import {FaCodeBranch, FaTerminal, FaChartBar} from "react-icons/fa"
 
 const Features = () => {
   return (
-    <section id="features" className="w-full h-[700px] py-20 border-b-[1px] border-b border-gray-600">
+    <section id="features" className="w-full py-20 border-b-[1px] border-gray-600">
       <div className="flex justify-center items-center text-center">
         <Title title="Features" des="What I Do"/>
       </div>
