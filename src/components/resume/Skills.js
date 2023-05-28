@@ -8,9 +8,9 @@ const Skills = () => {
         <div className='w-full lgl:w-1/2'>
             <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
                 {/* <p className="text-sm text-designColor tracking-[4px]">Features</p> */}
-                <h2 className="text-3xl md:text-4xl font-bold">Programming Languages</h2>
+                <h2 className="text-3xl text-center md:text-4xl font-bold">Programming Languages</h2>
             </div>
-            <div className="mt-14 w-full flex flex-col gap-6">
+            <div className="mt-6 w-full flex flex-col gap-4">
                 <SkillCard skill='Python' percentage='95%' width='w-[90%]' />
                 <SkillCard skill='SQL' percentage='80%' width='w-[80%]' />
                 <SkillCard skill='Javascript' percentage='70%' width='w-[70%]' />
@@ -23,9 +23,9 @@ const Skills = () => {
         <div className='w-full lgl:w-1/2'>
             <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
                 {/* <p className="text-sm text-designColor tracking-[4px]">Features</p> */}
-                <h2 className="text-3xl md:text-4xl font-bold">Software & Tools</h2>
+                <h2 className="text-3xl text-center md:text-4xl font-bold">Software & Tools</h2>
             </div>
-            <div className="mt-14 w-full flex flex-col gap-6">
+            <div className="mt-6 w-full flex flex-col gap-4">
                 <SkillCard skill='SAS' percentage='90%' width='w-[90%]' />
                 <SkillCard skill='Tableau' percentage='80%' width='w-[80%]' />
                 <SkillCard skill='Oracle' percentage='60%' width='w-[60%]' />
