@@ -12,7 +12,7 @@ const LeftBanner = () => {
         delaySpeed: 2000
       });
   return (
-    <div className="w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal">Welcome to my website!</h4>
         <h1 className="text-5xl font-bold text-white">
@@ -33,7 +33,7 @@ const LeftBanner = () => {
             With expertise in both batch and real-time processing, I specialize in creating robust data infrastructures that enable organizations to gain valuable insights from their data. My technical skills include proficiency in Python, SQL, and Azure cloud technologies such as Azure Data Factory, Azure Databricks, and Azure Synapse Analytics.
         </p>
         </div>
-        <div className="flex justify-between">
+        <div className="flex flex-col lgl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
             <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
