@@ -4,8 +4,8 @@ import SkillCard from './SkillCard'
 
 const Skills = () => {
   return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className='w-full flex gap-20'>
-        <div className='w-1/2'>
+    <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className='w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20'>
+        <div className='w-full lgl:w-1/2'>
             <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
                 {/* <p className="text-sm text-designColor tracking-[4px]">Features</p> */}
                 <h2 className="text-3xl md:text-4xl font-bold">Programming Languages</h2>
@@ -20,7 +20,7 @@ const Skills = () => {
             </div>
         </div>
 
-        <div className='w-1/2'>
+        <div className='w-full lgl:w-1/2'>
             <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
                 {/* <p className="text-sm text-designColor tracking-[4px]">Features</p> */}
                 <h2 className="text-3xl md:text-4xl font-bold">Software & Tools</h2>
