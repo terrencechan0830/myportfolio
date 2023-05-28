@@ -29,7 +29,7 @@ const LeftBanner = () => {
             cursorColor="#06b5d4"
             />
         </h2>
-        <p className="text-xs font-bodyFont leading-6 tracking-wide">
+        <p className="text-xs text-justify font-bodyFont leading-6 tracking-wide">
             With expertise in both batch and real-time processing, I specialize in creating robust data infrastructures that enable organizations to gain valuable insights from their data. My technical skills include proficiency in Python, SQL, and Azure cloud technologies such as Azure Data Factory, Azure Databricks, and Azure Synapse Analytics.
         </p>
         </div>

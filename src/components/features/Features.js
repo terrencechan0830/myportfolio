@@ -17,7 +17,7 @@ const Features = () => {
         des="Specializing in designing robust pipeline architectures that enable efficient and scalable data processing using cloud-based platforms, ETL tools, and data warehousing solutions."
         icon={<FaCodeBranch />}/>
         <FeatureCard title="Data Visualization"
-        des="With a passion for transforming complex data into easily digestible visualizations that drive business insights by create dynamic dashboards, which help stakeholders make informed decisions."
+        des="Transforming complex data into easily digestible visualizations that drive business insights by create dynamic dashboards, which help stakeholders make informed decisions."
         icon={<FaChartBar />}/>
       </div>
     </section>

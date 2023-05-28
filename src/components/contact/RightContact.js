@@ -76,7 +76,7 @@ const RightContact = () => {
             <textarea onChange={(e)=>setMessage(e.target.value)} value={message} className={`${errMsg ==="Message is required!" && "outline-designColor"} contactTextArea`} cols='30' rows="8" type='text' />
         </div>
         <div className='w-full'>
-            <button onClick={handleSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent'>
+            <button onClick={handleSend} className='w-full h-8 bg-[#141518] rounded-lg text-base text-gray-400 tracking wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent'>
             Send Message
             </button>
         </div>
