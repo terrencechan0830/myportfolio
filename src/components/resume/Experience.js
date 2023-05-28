@@ -9,7 +9,7 @@ const Experience = () => {
             {/* <p className="text-sm text-designColor tracking-[4px]">2015 - 2020</p> */}
             <h2 className="text-3xl md:text-4xl font-bold">Working Experience</h2>
         </div>
-        <div className='mt-14 w-full h-[900px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
+        <div className='mt-14 w-full h-[2000px] lgl:h-[900px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
             <ExperienceCard
                 title="Senior Data Engineer"
                 subTitle="Lenevo PCCW Solutions (LPS)"
