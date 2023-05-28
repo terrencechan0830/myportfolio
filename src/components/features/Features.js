@@ -9,7 +9,7 @@ const Features = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="Features" des="What I Do"/>
       </div>
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <FeatureCard title="App Development"
         des="Developing custom applications that are reliable, scalable, and tailored to meet specific business needs to deliver innovative solutions that exceed expectations."
         icon={<FaTerminal />}/>

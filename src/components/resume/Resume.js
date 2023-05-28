@@ -4,7 +4,6 @@ import Education from './Education'
 import Skills from './Skills'
 import Experience from './Experience'
 import Achievements from './Achievements'
-import {AiOutlineCloudDownload} from "react-icons/ai";
 
 
 const Resume = () => {
