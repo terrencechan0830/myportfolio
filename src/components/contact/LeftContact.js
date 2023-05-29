@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaInstagramSquare, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagramSquare, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { contactImg } from '../../assets'
 
 const LeftContact = () => {
@@ -25,15 +25,26 @@ const LeftContact = () => {
             Find me in
             </h2>
             <div className="flex gap-4">
-            <span className="bannerIcon">
-                <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-                <FaInstagramSquare />
-            </span>
-            <span className="bannerIcon">
-                <FaLinkedinIn />
-            </span>
+            <a href='https://www.facebook.com/chan.terrence.7/' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaFacebookF />
+                    </span>
+                </a>
+                <a href='https://www.instagram.com/terrence_ctf/' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaInstagramSquare />
+                    </span>
+                </a>
+                <a href='https://www.linkedin.com/in/terrence-chan-86228a159' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaLinkedinIn />
+                    </span>
+                </a>
+                <a href='https://github.com/terrencechan0830' target="_blank" rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                        <FaGithub />
+                    </span>
+                </a>
             </div>
         </div>
     </div>
