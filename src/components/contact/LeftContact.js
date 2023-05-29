@@ -8,9 +8,9 @@ const LeftContact = () => {
         <img className="w-full h-auto object-cover rounded-lg mb-2" src={contactImg} alt="contactImg" />
         <div className='flex flex-col gap-4'>
             <h3 className='text-3xl font-bold text-white'>Terrence Chan</h3>
-            <p className='text-lg font-normal text-gray-400'>Full Stack Developer</p>
+            {/* <p className='text-lg font-normal text-gray-400'>Full Stack Developer</p> */}
             <p className='text-base text-gray-400 tracking-wide'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!
+                I'm always open to new opportunities and partnerships. Send me a message and let's connect!
             </p>
             <p className='text-base text-gray-400 flex items-center gap-2'>
             Phone: <span className='text-lightText'>+852 98363086</span>

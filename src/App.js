@@ -9,7 +9,7 @@ import FooterBottom from "./components/Footer/FooterBottom";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText">
+    <div className="w-full h-auto p-3 lgl:p-0 bg-bodyColor text-lightText">
       <div className="max-w-screen-xl mx-auto">
         <Navbar />
         <Banner />

@@ -14,7 +14,7 @@ const Features = () => {
         des="Developing custom applications that are reliable, scalable, and tailored to meet specific business needs to deliver innovative solutions that exceed expectations."
         icon={<FaTerminal />}/>
         <FeatureCard title="Pipeline Architecture"
-        des="Specializing in designing robust pipeline architectures that enable efficient and scalable data processing using cloud-based platforms, ETL tools, and data warehousing solutions."
+        des="Specializing in designing robust pipeline architectures that enable scalable data processing using cloud-based platforms, ETL tools, and data warehousing solutions."
         icon={<FaCodeBranch />}/>
         <FeatureCard title="Data Visualization"
         des="Transforming complex data into easily digestible visualizations that drive business insights by create dynamic dashboards, which help stakeholders make informed decisions."

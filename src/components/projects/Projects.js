@@ -12,24 +12,21 @@ const Projects = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
             <ProjectCard
             title="Online Ordering Platform"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des=""
             src={projectOne}
             gitUrl="https://github.com/terrencechan0830/agentOrderForm"
             webUrl=""
             />
             <ProjectCard
             title="Responsive Portfolio"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des=""
             src={projectTwo}
             gitUrl="https://github.com/terrencechan0830/myportfolio"
             webUrl=""
             />
             <ProjectCard
             title="Working in Progress..."
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des=""
             src={projectThree}
             />
         </div>

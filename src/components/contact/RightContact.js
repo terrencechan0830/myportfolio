@@ -45,7 +45,7 @@ const RightContact = () => {
     }
 
   return (
-    <div className='w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col gap-8 p-4 lgl:p-8 rounded-lg'>
+    <div className='w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col gap-8 p-4 lgl:p-6 rounded-lg'>
         <form className='w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5'>
         {
             errMsg && <p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-red-500 text-base tracking-wide animate-bounce'>{errMsg}</p>
@@ -73,7 +73,7 @@ const RightContact = () => {
         </div>
         <div className='flex flex-col gap-4'>
             <p className='text-sm text-gray-400 uppercase tracking-wide'>Message</p>
-            <textarea onChange={(e)=>setMessage(e.target.value)} value={message} className={`${errMsg ==="Message is required!" && "outline-designColor"} contactTextArea`} cols='30' rows="8" type='text' />
+            <textarea onChange={(e)=>setMessage(e.target.value)} value={message} className={`${errMsg ==="Message is required!" && "outline-designColor"} contactTextArea`} cols='30' rows="7" type='text' />
         </div>
         <div className='w-full'>
             <button onClick={handleSend} className='w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent'>
