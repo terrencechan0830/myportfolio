@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import axios from 'axios';
 
 const RightContact = () => {
     const [username, setUsername] = useState("");
@@ -17,32 +18,62 @@ const RightContact = () => {
     };
     // ========== Email Validation end here ================
 
-    const handleSend = (e) => {
+    const handleSend = async (e) => {
         e.preventDefault();
-        if (username === "") {
-        setErrMsg("Username is required!");
-        } else if (phoneNumber === "") {
-        setErrMsg("Phone number is required!");
-        } else if (email === "") {
-        setErrMsg("Please give your Email!");
+        if (username === '') {
+          setErrMsg('Username is required!');
+        } else if (phoneNumber === '') {
+          setErrMsg('Phone number is required!');
+        } else if(email === '') {
+          setErrMsg('Please give your Email!');
         } else if (!emailValidation(email)) {
-        setErrMsg("Give a valid Email!");
-        } else if (subject === "") {
-        setErrMsg("Please give your Subject!");
-        } else if (message === "") {
-        setErrMsg("Message is required!");
+          setErrMsg('Give a valid Email!');
+        } else if (subject === '') {
+          setErrMsg('Please give your Subject!');
+        } else if (message === '') {
+          setErrMsg('Message is required!');
         } else {
-        setSuccessMsg(
-            `Thank you ${username}, Your Messages has been sent Successfully!`
-        );
-        setErrMsg("");
-        setUsername("");
-        setPhoneNumber("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
+          try {
+            const response = await axios.post(
+              'https://portfoliosendemail.azurewebsites.net/api/sendEmail?code=DYCKTwRk7o_pBdau8M-mxYunBO7tNsSR1xM-vK75zxq5AzFuFhZXdw==',
+              {
+                personalizations: [
+                  {
+                    to: [{ email: 'terrencechan0830@gmail.com' }],
+                  },
+                ],
+                from: {
+                  email: '<terrencechan0830@gmail.com>',
+                },
+                subject: subject,
+                content: [
+                  {
+                    type: 'text/plain',
+                    value: `Name: ${username}\nPhone Number: ${phoneNumber}\nEmail: ${email}\nMessage: ${message}`,
+                  },
+                ],
+              },
+              {
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+              }
+            );
+            setSuccessMsg(
+              `Thank you ${username}, Your Messages has been sent Successfully!`
+            );
+            setErrMsg('');
+            setUsername('');
+            setPhoneNumber('');
+            setEmail('');
+            setSubject('');
+            setMessage('');
+          } catch (error) {
+                setErrMsg('Failed to send email. Please try again later.');
+                console.log(error);
+          }
         }
-    }
+      };
 
   return (
     <div className='w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne flex flex-col gap-8 p-4 lgl:p-6 rounded-lg'>
