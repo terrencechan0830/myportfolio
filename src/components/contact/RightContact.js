@@ -34,7 +34,7 @@ const RightContact = () => {
           setErrMsg('Message is required!');
         } else {
           try {
-            const response = await axios.post(
+            await axios.post(
               'https://portfoliosendemail.azurewebsites.net/api/sendEmail?code=DYCKTwRk7o_pBdau8M-mxYunBO7tNsSR1xM-vK75zxq5AzFuFhZXdw==',
               {
                 personalizations: [
