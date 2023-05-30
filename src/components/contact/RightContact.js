@@ -37,27 +37,34 @@ const RightContact = () => {
             await axios.post(
               'https://portfoliosendemail.azurewebsites.net/api/sendEmail?code=DYCKTwRk7o_pBdau8M-mxYunBO7tNsSR1xM-vK75zxq5AzFuFhZXdw==',
               {
-                personalizations: [
-                  {
-                    to: [{ email: 'terrencechan0830@gmail.com' }],
-                  },
-                ],
-                from: {
-                  email: '<terrencechan0830@gmail.com>',
-                },
+                username: username,
+                phoneNumber: phoneNumber,
+                email: email,
                 subject: subject,
-                content: [
-                  {
-                    type: 'text/plain',
-                    value: `Name: ${username}\nPhone Number: ${phoneNumber}\nEmail: ${email}\nMessage: ${message}`,
-                  },
-                ],
-              },
-              {
-                headers: {
-                  'Content-Type': 'application/json',
-                },
+                message: message,
               }
+            //   {
+            //     personalizations: [
+            //       {
+            //         to: [{ email: 'terrencechan0830@gmail.com' }],
+            //       },
+            //     ],
+            //     from: {
+            //       email: '<terrencechan0830@gmail.com>',
+            //     },
+            //     subject: subject,
+            //     content: [
+            //       {
+            //         type: 'text/plain',
+            //         value: `Name: ${username}\nPhone Number: ${phoneNumber}\nEmail: ${email}\nMessage: ${message}`,
+            //       },
+            //     ],
+            //   },
+            //   {
+            //     headers: {
+            //       'Content-Type': 'application/json',
+            //     },
+            //   }
             );
             setSuccessMsg(
               `Thank you ${username}, Your Messages has been sent Successfully!`
