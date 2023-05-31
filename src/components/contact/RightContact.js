@@ -35,7 +35,7 @@ const RightContact = () => {
         } else {
           try {
             await axios.post(
-              'https://portfoliosendemail.azurewebsites.net/api/sendEmail?',
+              'https://portfoliosendemail.azurewebsites.net/api/sendEmail',
               {
                 username: username,
                 phoneNumber: phoneNumber,
