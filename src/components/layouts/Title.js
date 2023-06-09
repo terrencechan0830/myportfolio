@@ -10,7 +10,7 @@ const Title = ({title, des}) => {
           des === "My Resume" ? 
           <a href='https://www.dropbox.com/s/6tc5yo3ba4ir8vk/Terrence-Chan-CV.pdf?dl=1' className='flex justify-center items-center font-semibold hover:text-designColor hover:underline duration-300'>
             <span className='text-2xl'><AiOutlineCloudDownload /></span>
-            <p>Download CV</p>
+            <p className='text-xs'>Download CV</p>
           </a>
           :
           ""

@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section id="contact" className="w-full py-20 border-b-[1px] border-b-gray-600">
       <div className="flex justify-center items-center text-center">
-        <Title title="Contact" des="Contact With Me" />
+        <Title title="Contact" des="Let's Connect!" />
       </div>
       <div className='w-full'>
         <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
