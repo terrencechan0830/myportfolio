@@ -9,6 +9,7 @@ import azuredeveloper from "./images/certificates/azure-developer.png";
 import azuredevopsengineer from "./images/certificates/azure-devops-engineer.png";
 import sasbaseprogrammingspecialist from "./images/certificates/sas-base-programming-specialist.png";
 import tableaudesktopspecialist from "./images/certificates/tableau-desktop-specialist.png";
+import azuresolutionsarchitect from "./images/certificates/azure-solutions-architect.png"
 
 export {
   logo,
@@ -21,5 +22,6 @@ export {
   azuredeveloper,
   azuredevopsengineer,
   sasbaseprogrammingspecialist,
-  tableaudesktopspecialist
+  tableaudesktopspecialist,
+  azuresolutionsarchitect
 };
