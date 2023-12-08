@@ -8,7 +8,7 @@ const Title = ({title, des}) => {
       <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize">{des}</h1>
         {
           des === "My Resume" ? 
-          <a href='https://www.dropbox.com/scl/fi/4m0iydxvkbjz5qwlbtouw/Terrence-Chan-CV.pdf?rlkey=7lx5pa706xzw6nvnmcq0ud3ka&dl=0' className='flex justify-center items-center font-semibold hover:text-designColor hover:underline duration-300'>
+          <a href='https://www.dropbox.com/scl/fi/4m0iydxvkbjz5qwlbtouw/Terrence-Chan-CV.pdf?rlkey=7lx5pa706xzw6nvnmcq0ud3ka&dl=1' className='flex justify-center items-center font-semibold hover:text-designColor hover:underline duration-300'>
             <span className='text-2xl'><AiOutlineCloudDownload /></span>
             <p className='text-xs'>Download CV</p>
           </a>
@@ -20,3 +20,4 @@ const Title = ({title, des}) => {
 }
 
 export default Title
+
